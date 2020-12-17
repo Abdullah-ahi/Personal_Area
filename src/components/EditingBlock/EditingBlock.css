@@ -1,0 +1,21 @@
+.contact-editing-block{
+  position: absolute;
+  left: 145%;
+  top: -350%;
+  transition: top 0.5s;
+  z-index: 2;
+}
+.editting-name{
+  outline: none;
+  background-color: #222;
+  opacity: 0.9;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ccc;
+  box-sizing: border-box;
+  height: 30px;
+}
+.edit-btn{
+  width: 84px !important;
+}

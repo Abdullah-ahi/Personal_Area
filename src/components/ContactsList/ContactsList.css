@@ -1,0 +1,53 @@
+.contacts-list{
+  display: none;
+  width: 30%;
+}
+.contact-list-item{
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+}
+.contact-delete-button{
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+  width: 30px !important;
+  height: 30px !important;
+  box-sizing: border-box;
+  padding: 8px;
+  background-color: cadetblue;
+  margin-right: 20px !important;
+  outline: none;
+  transition: background-color 0.5s;
+}
+.contact-delete-button:active{
+  background-color: rgb(1, 1, 19);
+  color: #fff;
+}
+.editing-button{
+  height: 31px;
+  border-radius: 21px 21px 21px 21px;
+  -moz-border-radius: 21px 21px 21px 21px;
+  -webkit-border-radius: 21px 21px 21px 21px;
+  border: 0px solid #000000;
+  background-color: cadetblue;
+  margin-left: 15px;
+  outline: none;
+  display: none;
+}
+.editing-button:active{
+  background-color: rgb(1, 1, 19);
+  color: #fff;
+}
+.contact-list-item:hover .editing-button{
+  display: inline-block;
+}
+.add-contact-bcg{
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}

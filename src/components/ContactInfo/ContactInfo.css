@@ -1,0 +1,13 @@
+.contact-info{
+  background-color: #F0E68C;
+  width: 70%;
+  height: 100vh;
+  display: none;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.contact-name{
+  margin-bottom: 10px;
+}

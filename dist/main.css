@@ -1,0 +1,122 @@
+body{
+  margin: 0
+}
+
+.contacts-header{
+  display: none;
+  width: 100%;
+  height: 70px;
+  background-color: #800080;
+  padding-top: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.author-name{
+  margin-left: 10px;
+}
+.page-name{
+  margin: 0 auto;
+}
+.contacts-block{
+  display: flex;
+}
+.contacts-list{
+  display: none;
+  width: 30%;
+}
+.contact-list-item{
+  text-decoration: none;
+  font-size: 20px;
+}
+.contact-delete-button{
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+  width: 30px !important;
+  height: 30px !important;
+  box-sizing: border-box;
+  padding: 8px;
+  background-color: cadetblue;
+  margin-right: 20px !important;
+  outline: none;
+  transition: background-color 0.5s;
+}
+.contact-delete-button:active{
+  background-color: rgb(1, 1, 19);
+  color: #fff;
+}
+.contact-info{
+  background-color: #F0E68C;
+  width: 70%;
+  height: 100vh;
+  display: none;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.contact-name{
+  margin-bottom: 10px;
+}
+.transparent-block{
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.SignInForm{
+  width: 350px;
+  height: 100px;
+  border: 0px solid #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.user-name{
+  height: 40%;
+  outline: none;
+  background-color: #222;
+  opacity: 0.9;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ccc;
+}
+.user-tel{
+  height: 40%;
+  outline: none;
+  background-color: #222;
+  opacity: 0.9;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ccc;
+}
+.signIn-btn{
+  width: 100%;
+  height: 45px;
+  box-sizing: border-box;
+  background-color: orange;
+  color: #fff;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.form-name{
+  color:#fff;
+  font-size: 25px;
+  display: flex;
+  margin-bottom: 20px;
+}
